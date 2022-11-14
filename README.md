@@ -39,5 +39,8 @@ mvn test
 cd AutomationSaucelab/risecodes/automation/common
 allure serve allure-results/
 ```
-![Report](https://nimb.ws/4J5B1q)
+##### Actual Report
+
+![screenshot-10 100 26 100_41297-2022 11 14-17_06_53](https://user-images.githubusercontent.com/42721921/201669400-844b49cb-f21f-4b41-87e5-b01c422103dc.png)
+![screenshot-10 100 26 100_41297-2022 11 14-17_16_05](https://user-images.githubusercontent.com/42721921/201669850-a95d230e-9b54-4402-9ffa-c6cef9f74f61.png)
 
