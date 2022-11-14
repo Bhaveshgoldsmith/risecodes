@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="testcases.TC002_AddProducts">
+        <methods>
+          <include name="addProducts"/>
+          <include name="initiateDriverInstance"/>
+          <include name="closeDriverInstance"/>
+        </methods>
+      </class> <!-- testcases.TC002_AddProducts -->
+      <class name="testcases.TC001_Login">
+        <methods>
+          <include name="initiateDriverInstance"/>
+          <include name="closeDriverInstance"/>
+          <include name="login" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- testcases.TC001_Login -->
+      <class name="testcases.TC003_ResetAppStateLogout">
+        <methods>
+          <include name="login"/>
+          <include name="initiateDriverInstance"/>
+          <include name="closeDriverInstance"/>
+        </methods>
+      </class> <!-- testcases.TC003_ResetAppStateLogout -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
